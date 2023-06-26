@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Donegal+One&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    background-color: #EBE5CE;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h2{
+    color: #8D1042;
+    font-family: 'Donegal One', serif;
+    font-size: 40px;
+}
+
+p{
+    text-align: center;
+    padding: 0 3rem;
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+.fundo2{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: center;
+    background-image: url("assets/Enfeite.png");
+    background-size: 415px;
+    min-height: 400px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.Aiai{
+    margin-left: 20px;
+}
